@@ -11,7 +11,9 @@
   "dependencies": {
     "coffee-script": "^1.12.6",
     "hubot": "git://github.com/hubotio/hubot.git#73fc2bbc1c08de7722d47eacc237d2e081a29c36",
-    "hubot-irc": "^0.2.9"
+    "hubot-google-hangouts": "^0.7.1",
+    "hubot-irc": "^0.2.9",
+    "hubot-matrix": "git://github.com/xwiki-labs/hubot-matrix.git#changes"
   },
   "devDependencies": {
     "hubot-help": "^0.2.0",
