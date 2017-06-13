@@ -1,0 +1,20 @@
+{
+  "name": "hubot-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.12.6",
+    "hubot": "git://github.com/hubotio/hubot.git#73fc2bbc1c08de7722d47eacc237d2e081a29c36",
+    "hubot-irc": "^0.2.9"
+  },
+  "devDependencies": {
+    "hubot-help": "^0.2.0",
+    "jshint": "^2.9.4"
+  }
+}
