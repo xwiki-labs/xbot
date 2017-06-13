@@ -31,3 +31,5 @@ process.env.HUBOT_LOG_LEVEL = 'debug';
 const robot = Hubot.loadBot(undefined, options.adapter, options.enableHttpd, options.name, options.alias);
 robot.adapter.once('connected', () => { robot.loadExternalScripts(SCRIPTS); });
 robot.run();
+
+console.log('>>' + require('hubot-matrix').use(robot).run.toString());
