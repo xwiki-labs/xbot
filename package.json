@@ -10,13 +10,15 @@
   "license": "MIT",
   "dependencies": {
     "coffee-script": "^1.12.6",
-    "hubot": "git://github.com/hubotio/hubot.git#73fc2bbc1c08de7722d47eacc237d2e081a29c36",
+    "hubot": "git://github.com/hubotio/hubot.git#d3df7138960b875614a8ad050f51a21c8e19c2fc",
+
+    "hubot-matrix": "git://github.com/xwiki-labs/hubot-matrix.git#es2015",
+
+    "hubot-help": "^0.2.0",
     "hubot-google-hangouts": "^0.7.1",
-    "hubot-irc": "^0.2.9",
-    "hubot-matrix": "git://github.com/xwiki-labs/hubot-matrix.git#changes"
+    "hubot-travis-ci-hook": "0.0.1"
   },
   "devDependencies": {
-    "hubot-help": "^0.2.0",
     "jshint": "^2.9.4"
   }
 }
