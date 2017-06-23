@@ -11,11 +11,12 @@
   "dependencies": {
     "coffee-script": "^1.12.6",
     "hubot": "git://github.com/hubotio/hubot.git#d3df7138960b875614a8ad050f51a21c8e19c2fc",
-
-    "hubot-matrix": "git://github.com/xwiki-labs/hubot-matrix.git#es2015",
-
-    "hubot-help": "^0.2.0",
+    "hubot-auth": "^2.1.0",
+    "hubot-factoids": "^1.1.0",
     "hubot-google-hangouts": "^0.7.1",
+    "hubot-help": "^0.2.0",
+    "hubot-matrix": "git://github.com/xwiki-labs/hubot-matrix.git#es2015",
+    "hubot-mysql-brain": "git://github.com/chickenzord/hubot-mysql-brain.git#304a562bb8a4979819766158efd20c24fa0aae50",
     "hubot-travis-ci-hook": "0.0.1"
   },
   "devDependencies": {
